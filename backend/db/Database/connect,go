@@ -1,0 +1,35 @@
+package database
+
+import (
+	_ "github.com/mattn/go-sqlite3"
+)
+
+// Connect establishes a connection to the SQLite database.
+// func Connect() *sql.DB {
+// 	db, err := sql.Open("sqlite3", "backend/db/Database/socialdb.db") // Simplified path
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	return db
+// }
+
+// Migrate runs the database migrations.
+// func Migrate() {
+// 	// Connect to the database
+// 	db := Connect()
+// 	defer db.Close()
+
+// 	// Create a new migration instance
+// 	m, err := migrate.New(
+// 		"file://backend/db/migrations/sqlite",
+// 		"sqlite3:backend/db/Database/socialdb.db",
+// 	)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+
+// 	// Apply migrations
+// 	if err := m.Up(); err != nil {
+// 		log.Fatal(err) // Handle error if migration fails
+// 	}
+// }

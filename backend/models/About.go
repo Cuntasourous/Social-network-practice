@@ -7,3 +7,4 @@ type AboutResponse struct {
 	Status    string `json:"status"`
 	Timestamp int64  `json:"timestamp"`
 }
+

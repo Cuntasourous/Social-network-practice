@@ -3,7 +3,7 @@ package Server
 import (
 	"fmt"
 	"net/http"
-	"social-network/backend/handlers"
+	// "social-network/backend/handlers"
 )
 
 func Server() {

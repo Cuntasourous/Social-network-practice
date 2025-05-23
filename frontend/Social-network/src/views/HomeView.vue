@@ -1,10 +1,10 @@
 <script setup>
 import { ref } from "vue";
-const items = ref(['Apple', 'Banana', 'Orange']);
+import Button from 'primevue/button';
 </script>
 
 <template>
-    <h2 v-for="item in items" :key="item">
-      {{ item }}
-    </h2>
+  <br>
+  <h1>Register new user</h1>
+  <Button label="Submit" />
 </template>
